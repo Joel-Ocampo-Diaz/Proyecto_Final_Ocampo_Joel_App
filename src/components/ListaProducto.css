@@ -1,0 +1,86 @@
+/* ListaCategoria.css */
+
+/* Estilo general para el contenedor de categorías */
+.categorias-container {
+    padding: 2rem;
+}
+
+/* Estilo del título de la página */
+.categorias-container h1 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Estilo de la tabla de categorías */
+.p-datatable-gridlines {
+    margin-top: 1rem;
+}
+
+/* Estilo para las columnas de la tabla */
+.p-datatable-gridlines .p-datatable-thead > tr > th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo para las celdas de la tabla */
+.p-datatable-gridlines .p-datatable-tbody > tr > td {
+    padding: 0.5rem;
+}
+
+/* Estilo para el diálogo */
+.p-dialog .p-dialog-header {
+    background-color: #007ad9;
+    color: #fff;
+}
+
+/* Estilo para el contenido del diálogo */
+.p-dialog .p-dialog-content {
+    padding: 1rem;
+}
+
+/* Estilo para los campos del formulario */
+.p-field {
+    margin-bottom: 1rem;
+}
+
+/* Estilo para las etiquetas del formulario */
+.p-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* Estilo para los botones en el diálogo */
+.p-dialog .p-button {
+    margin-right: 0.5rem;
+}
+
+/* Estilo específico para el botón de agregar/guardar */
+.p-button-success {
+    background-color: #28a745;
+    border: none;
+}
+
+/* Estilo para el botón de eliminar */
+.p-button-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+/* Estilo para el botón de editar */
+.p-button-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+/* Estilo para el texto de los botones */
+.p-button {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Asegura que los botones sean responsivos */
+.p-button {
+    min-width: 6rem;
+}

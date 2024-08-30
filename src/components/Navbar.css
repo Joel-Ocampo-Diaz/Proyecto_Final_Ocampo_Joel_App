@@ -1,0 +1,41 @@
+/* Estilo general del nav */
+nav {
+  background-color: #333;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la lista de navegación */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilo para cada ítem de la lista */
+nav ul li {
+  margin: 0;
+}
+
+/* Estilo para los enlaces */
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+/* Efecto de hover para los enlaces */
+nav ul li a:hover {
+  color: #00f2fe;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo para enlaces activos */
+nav ul li a.active {
+  color: #00f2fe;
+  font-weight: bold;
+}

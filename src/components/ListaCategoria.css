@@ -1,0 +1,98 @@
+/* Estilo para el contenedor de la lista de productos */
+.productos-container {
+  padding: 2rem;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+
+/* Estilo para el título de la sección */
+.productos-container h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Estilo para el DataTable */
+.p-datatable-gridlines {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para las celdas de la tabla */
+.p-datatable-gridlines .p-datatable-tbody > tr > td {
+  padding: 1rem;
+}
+
+/* Estilo para las columnas del DataTable */
+.p-datatable-gridlines .p-column-header {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Estilo para el botón de agregar producto */
+.p-button-success {
+  margin-bottom: 1rem;
+}
+
+/* Estilo para el diálogo de agregar/editar producto */
+.p-dialog {
+  border-radius: 8px;
+}
+
+.p-dialog-header {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+
+.p-dialog .p-field {
+  margin-bottom: 1rem;
+}
+
+.p-dialog .p-button {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+/* Estilo para los campos del formulario en el diálogo */
+.p-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-field label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.p-field input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilo para el botón dentro del diálogo */
+.p-button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.p-button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para el mensaje de Toast */
+.p-toast {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 9999;
+}
